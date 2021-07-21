@@ -7,7 +7,7 @@ pipeline {
 					pwd
 					sleep 5
 					echo This is the fist stage: BUILD
-					sh (exit1)
+					sh(exit1)
 				'''
 			}	
 		}
